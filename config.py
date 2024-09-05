@@ -13,7 +13,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 API_ID = 21617223
 API_HASH = "388250849e21811b497f2614fd4619f7"
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "kittyxspam")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "cb2147ff-d743-49fc-a18e-6a40aec75e77")
 
 BOT_TOKEN = getenv("BOT_TOKEN", default="7016854687:AAGEzPV8l-fKE7Cpz29jao4PH1PMdbnkFXY")
