@@ -30,7 +30,7 @@ BOT_TOKEN10 = getenv("BOT_TOKEN10", default="7128348935:AAHRqtkMVmuUw-nTTB0LFUTo
 SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6723933089").split()))
 for x in FRIDAY:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="76723933089"))
+OWNER_ID = int(getenv("OWNER_ID", default="6723933089"))
 SUDO_USERS.append(OWNER_ID)
 
 
