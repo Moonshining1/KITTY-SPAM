@@ -9,7 +9,7 @@ START_BUTTON = [
     ],
     [
         Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Kittyxupdates"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Grandxmasti")
+        Button.url("• for sudo •", "https://t.me/spam_bot_sudo")
     ],
     [
         Button.url(" 🇲σ᭡፝֟ɳ🌙 ", "https://t.me/Moonshining2")
