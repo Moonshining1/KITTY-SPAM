@@ -27,10 +27,10 @@ BOT_TOKEN8 = getenv("BOT_TOKEN8", default="7183164856:AAEeX8wqN-xJatG6Aoln5BEs0U
 BOT_TOKEN9 = getenv("BOT_TOKEN9", default="7042004567:AAEqasDun5gJU_K1_UkFyerfokJzCsJtBSQ")
 BOT_TOKEN10 = getenv("BOT_TOKEN10", default="7128348935:AAHRqtkMVmuUw-nTTB0LFUTokLDXLTfTrK8")
 
-SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6723933089 6642807060").split()))
+SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6723933089 6642807060 1870128345").split()))
 for x in FRIDAY:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="6642807060"))
+OWNER_ID = int(getenv("OWNER_ID", default="1870128345"))
 SUDO_USERS.append(OWNER_ID)
 
 
